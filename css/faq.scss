@@ -1,0 +1,249 @@
+@import "likes.css";
+body,html{
+    margin:0;padding:0;
+    overflow-x:hidden;
+}
+.emailwarn,.Inswarn{
+    color:#cf4a54;
+    margin-left:10px;
+    padding-left:30px;
+    position:relative;
+    line-height:28px;
+    span{
+        display:inline-block;
+        background:url(../img/faq/phone_icon_caveat.png) no-repeat;
+        background-size:contain;
+        width:20px;height:20px;
+        position:absolute;
+        left:0;top:0;
+    }
+}
+.delete{
+    width:24px;
+    height:24px;
+    background:url(../img/faq/pc_icon_delete.png) no-repeat;
+    background-size:contain;
+    position:absolute;
+    right:6px;top:4px;
+    z-index:9999;
+}
+.faq{
+    text-align:left;
+    padding-left:46px;
+    padding-right:136px;
+    @media screen and (min-width:30px) and (max-width:1000px){
+       margin-bottom:28px;
+       padding-left:25px;
+       padding-right:50px;
+    }
+    .question{
+        margin-bottom:16px;
+        color:#0f0f0f;
+        margin-left:18px;
+        padding-left:40px;
+        position:relative;
+    }
+    .answer{
+        position:relative;
+        font-size:14px;
+        color:#797979;
+        line-height:24px;
+        margin-bottom:20px;
+        margin-left:18px;
+        padding-left:40px;
+        @media screen and (min-width:30px) and (max-width:1000px){
+           margin-bottom:22px;
+        }
+    }
+    span{
+        position:absolute;
+        margin-right:18px;
+        font-weight:normal;
+        font-size:14px;
+        left:0;top:0;
+        color:#0f0f0f;
+    }
+    h2{
+        font-weight:normal;
+         font-size:14px;
+    }
+}
+form{
+    padding-top:24px;
+    padding-left:50px;
+    text-align:left;
+    @media screen and (max-width:1000px){
+       padding-top:16px;
+       padding-left:12px;
+    }
+    h4{
+        font-size:24px;color:#353534;
+        font-weight:normal;
+    } 
+    .input-txt{
+        margin-bottom:20px;
+    }
+    .Contact{
+        color:#797979;
+        font-size:16px;
+        margin-top:16px;
+        margin-bottom:36px;
+        @media screen and (max-width:1000px){
+            margin-top:26px;
+            margin-bottom:31px;
+        }
+    }
+    .text,textarea{
+        outline:0 none;
+        display:block;
+        width:80%;
+        padding:12px;
+        border:1px solid #dedddd;
+        background:#f7f6f6;
+        padding-left:24px;
+        margin-top:8px;
+        border-radius:2px;
+        @media screen and (min-width:320px) and (max-width:700px){
+            padding-left:17px;
+            width:95%;
+        }
+    }
+    textarea{
+        height:126px;
+        padding:10px;resize: none;
+        @media screen and (max-width:700px){
+           padding:10px;
+        }
+    }
+}
+.likesbanner-tit{
+    @media screen and (max-width:445px){
+       line-height:normal !important;
+       padding-top:20px!important;
+    }
+    @media screen and (max-width:375px){
+       line-height:66px !important;
+    }
+    @media screen and (max-width:362px){
+       line-height:normal !important;
+       padding-top:24px!important;
+    }
+}
+.likesbanner-tit span{
+    @media screen and (max-width:650px){
+       display:none;
+    }
+}
+
+#submit{
+    @media screen and (max-width:639px){
+       text-align:center;
+    }
+}
+.faqsubmit{
+    border-radius:40px;;
+    color:#fff;
+    text-align:center;
+    background:#d5d4d4;
+    font-size:18px;
+    margin:22px 0;
+    padding:15px 85px;
+    border:none;
+    @media screen and (min-width:320px) and (max-width:639px){
+       margin:18px 0;
+    }
+}
+.file_warn{
+    display:inline-block;
+}
+.faq_yes,.faq_no,.more_length{
+    position:relative;
+    line-height:28px;
+    padding-left:30px;
+    margin-top:15px;
+    span{
+        display:inline-block;
+        background:url(../img/faq/pc_icon_upload_successful.png) center center no-repeat;
+        background-size:contain;
+        width:20px;height:28px;
+        position:absolute;
+        left:0;top:0;
+    }
+}
+.faq_no:after{
+    content:"";
+    display:inline-block;
+    width:0;height:0;
+    clear:none;
+}
+.faq_no span{
+    background:url(../img/faq/pc_icon_upload_failed.png) center center no-repeat;
+    background-size:contain;
+}
+.more_length{color:red;}
+.more_length span{
+    background:url(../img/faq/phone_icon_caveat.png) center center no-repeat;
+    background-size:contain;
+}
+.textarea_input p{
+    margin-top:10px;
+    width:80%;
+    text-align:right;
+    @media screen and (min-width:320px) and (max-width:700px){
+        width:95%;
+    }
+}
+.upload{
+    @media screen and (min-width:993px){
+       float:left;
+    }
+}
+.faq-upload{
+    display:inline-block;
+}
+.uploadBox{
+    width:100%;
+    margin-top:12px;
+}
+.cvs{
+    border: 5px solid purple;
+}
+.load-dom{
+    height: 130px;
+    width: 130px;
+    float:left;
+    position: relative;
+}
+.fake-loader{
+    width: 130px;
+    height: 130px;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:url(../img/faq/pc_choosefile_n.png) no-repeat;
+    background-size: cover;
+}
+.load-img{
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    border: none;
+    outline: none;
+    position: absolute;
+    z-index:-1;
+}
+img{
+    display: block;
+    height: 100%;
+}
+.img-lists li{
+    float: left;
+    height: 130px;
+    width:130px;
+    overflow: hidden;
+    margin-right:12px;
+    margin-bottom:12px;
+    list-style: none;
+    position: relative;
+}

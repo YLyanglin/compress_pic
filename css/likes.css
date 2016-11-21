@@ -1,0 +1,234 @@
+@import url(index.css);
+.likescontainer {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
+  text-align: center; }
+  @media screen and (max-width: 1250px) {
+    .likescontainer {
+      margin-bottom: 0px;
+      margin-top: 20px; } }
+  @media screen and (min-width: 1250px) {
+    .likescontainer {
+      width: 1239px; } }
+  @media screen and (min-width: 992px) and (max-width: 1250px) {
+    .likescontainer {
+      width: 933px; } }
+  @media screen and (min-width: 668px) and (max-width: 992px) {
+    .likescontainer {
+      width: 631px; } }
+  @media screen and (min-width: 320px) and (max-width: 668px) {
+    .likescontainer {
+      width: 100%; } }
+
+.likesbanner {
+  height: 120px;
+  line-height: 120px;
+  background: url(../img/PCbuy.png) center;
+  background-size: cover; }
+  @media screen and (min-width: 300px) and (max-width: 900px) {
+    .likesbanner {
+      height: 94px; } }
+  .likesbanner .likesbanner-tit {
+    padding-top: 0;
+    font-size: 27px;
+    text-align: center;
+    line-height: 120px; }
+    @media screen and (min-width: 300px) and (max-width: 900px) {
+      .likesbanner .likesbanner-tit {
+        line-height: 94px; } }
+    @media screen and (max-width: 375px) {
+      .likesbanner .likesbanner-tit {
+        font-size: 22px; } }
+    @media screen and (min-width: 375px) and (max-width: 440px) {
+      .likesbanner .likesbanner-tit {
+        font-size: 24px; } }
+    .likesbanner .likesbanner-tit span {
+      margin: 10px 30px; }
+      @media screen and (max-width: 375px) {
+        .likesbanner .likesbanner-tit span {
+          margin: 10px 15px; } }
+
+@media screen and (min-width: 520px) and (max-width: 785px) {
+  .likesprocess-tit {
+    font-size: 1.3em;
+    padding: 0 5px;
+    padding-top: 12px; } }
+@media screen and (max-width: 520px) {
+  .likesprocess-tit {
+    font-size: 1em; } }
+@media screen and (min-width: 623px) and (max-width: 785px) {
+  .likesprocess-tit span {
+    width: 38px;
+    height: 2px;
+    background: #ff9c00;
+    margin: 8px 18px; } }
+@media screen and (min-width: 500px) and (max-width: 623px) {
+  .likesprocess-tit span {
+    width: 30px;
+    height: 2px;
+    background: #ff9c00;
+    margin: 8px 10px; } }
+@media screen and (min-width: 414px) and (max-width: 500px) {
+  .likesprocess-tit span {
+    width: 23px;
+    height: 1px;
+    background: #ff9c00;
+    margin: 6px 5px; } }
+@media screen and (min-width: 300px) and (max-width: 414px) {
+  .likesprocess-tit span {
+    display: none; } }
+
+.likescard {
+  display: inline-block;
+  width: 210px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 21px #ccc;
+  margin: 0 24px 40px 24px;
+  padding-top: 20px;
+  position: relative; }
+  @media screen and (max-width: 320px) {
+    .likescard {
+      margin: 0;
+      margin-bottom: 40px; } }
+  .likescard .best {
+    position: absolute;
+    right: 23px;
+    top: 0;
+    display: inline-block;
+    width: 40px;
+    background: url(../img/PCbuy/pc_bestdeal_bg.png) no-repeat;
+    background-size: contain;
+    height: 51px; }
+    @media screen and (max-width: 500px) {
+      .likescard .best {
+        background: url(../img/PHbuy/phone_bestdeal.png) no-repeat;
+        background-size: contain; } }
+  .likescard p {
+    height: 45px;
+    line-height: 45px;
+    color: #959595;
+    font-size: 14px;
+    border-bottom: 1px solid #CBCBCB;
+    text-align: center; }
+  .likescard h1 {
+    height: 63px;
+    text-align: center;
+    font-size: 18px;
+    margin: 0; }
+    .likescard h1 span {
+      font-size: 30px;
+      display: block;
+      text-align: center; }
+  .likescard h2 {
+    background: #68C5AB;
+    color: #fff;
+    font-size: 34px;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 14px; }
+  .likescard .support {
+    color: #885fbe; }
+  .likescard .buynow {
+    display: block;
+    color: #fff;
+    width: 100%;
+    height: 60px;
+    background: url(../img/PCbuy/pc_buynow_bg_n.png) center;
+    background-size: cover;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    border-radius: 0 0 10px 10px;
+    cursor: pointer; }
+  .likescard i {
+    display: none; }
+
+.buynow:hover {
+  background: url(../img/PCbuy/pc_buynow_bg_click.png) center;
+  background-size: cover; }
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .process-tit-p {
+    margin-bottom: 42px; } }
+
+.provider {
+  height: 750px;
+  background: #eee; }
+  @media screen and (min-width: 300px) and (max-width: 1250px) {
+    .provider {
+      height: initial; } }
+
+.provider-contain {
+  display: inline-block; }
+  @media screen and (max-width: 1250px) {
+    .provider-contain {
+      height: inherit; } }
+  .provider-contain h4 {
+    font-size: 18px;
+    color: #3c3b3b;
+    margin-bottom: 16px;
+    font-weight: normal; }
+  .provider-contain p {
+    line-height: 24px;
+    font-size: 14px;
+    height: 162px;
+    color: #797979;
+    padding-bottom: 36px; }
+    @media screen and (max-width: 1250px) {
+      .provider-contain p {
+        height: inherit;
+        padding-bottom: 36px; } }
+
+.provider-left {
+  width: 528px;
+  float: left;
+  text-align: left;
+  margin: 0 15px;
+  margin-left: 40px; }
+  @media screen and (max-width: 1250px) {
+    .provider-left {
+      float: none;
+      width: 100%;
+      padding: 0 30px;
+      margin: 0 15px;
+      margin-left: 0px; } }
+
+.provider-right {
+  width: 528px;
+  float: right;
+  text-align: left;
+  margin: 0; }
+  @media screen and (max-width: 1250px) {
+    .provider-right {
+      float: none;
+      width: 100%;
+      padding: 0 30px;
+      margin: 0; } }
+
+.privilege {
+  width: 60px;
+  height: 60px;
+  background: url(../img/pc_youhui.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  right: 0;
+  top: 0; }
+  .privilege span {
+    display: inline-block;
+    color: #fff;
+    transform: rotate(46deg);
+    -ms-transform: rotate(46deg);
+    -moz-transform: rotate(46deg);
+    -webkit-transform: rotate(46deg);
+    -o-transform: rotate(46deg);
+    padding-top: 3px;
+    padding-left: 30px; }
+  .privilege .privilege_first {
+    padding-top: 8px;
+    padding-left: 20px; }
+
+/*# sourceMappingURL=likes.css.map */
