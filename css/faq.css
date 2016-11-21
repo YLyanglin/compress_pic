@@ -12,7 +12,7 @@ body, html {
   line-height: 28px; }
   .emailwarn span, .Inswarn span {
     display: inline-block;
-    background: url(../img/faq/phone_icon_caveat.png) no-repeat;
+    background: url(../faq/phone_icon_caveat.png) no-repeat;
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -23,7 +23,7 @@ body, html {
 .delete {
   width: 24px;
   height: 24px;
-  background: url(../img/faq/pc_icon_delete.png) no-repeat;
+  background: url(../faq/pc_icon_delete.png) no-repeat;
   background-size: contain;
   position: absolute;
   right: 6px;
@@ -156,7 +156,7 @@ form {
   margin-top: 15px; }
   .faq_yes span, .faq_no span, .more_length span {
     display: inline-block;
-    background: url(../img/faq/pc_icon_upload_successful.png) center center no-repeat;
+    background: url(../faq/pc_icon_upload_successful.png) center center no-repeat;
     background-size: contain;
     width: 20px;
     height: 28px;
@@ -172,14 +172,14 @@ form {
   clear: none; }
 
 .faq_no span {
-  background: url(../img/faq/pc_icon_upload_failed.png) center center no-repeat;
+  background: url(../faq/pc_icon_upload_failed.png) center center no-repeat;
   background-size: contain; }
 
 .more_length {
   color: red; }
 
 .more_length span {
-  background: url(../img/faq/phone_icon_caveat.png) center center no-repeat;
+  background: url(../faq/phone_icon_caveat.png) center center no-repeat;
   background-size: contain; }
 
 .textarea_input p {
@@ -217,7 +217,7 @@ form {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../img/faq/pc_choosefile_n.png) no-repeat;
+  background: url(../faq/pc_choosefile_n.png) no-repeat;
   background-size: cover; }
 
 .load-img {

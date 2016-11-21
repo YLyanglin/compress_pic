@@ -2,7 +2,7 @@
 * @Author: Marte
 * @Date:   2016-10-21 18:12:30
 * @Last Modified by:   Marte
-* @Last Modified time: 2016-11-21 15:06:09
+* @Last Modified time: 2016-11-21 16:57:26
 */
 //客户端上传
 var loader = document.querySelector('.load-img');
@@ -97,7 +97,6 @@ loader.addEventListener('change',function () {
 });
 $(document).on('click','.delete',function () {
     $(this).parents('li').remove();
-    console.log($(".img-lists>li").length)
     if($(".img-lists>li").length<=5){
         $(".more_length").addClass("display-none");
     }
